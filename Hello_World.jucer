@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="yZ9RHm" name="Hello_World" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="UqWCqL" name="Hello_World">
+    <GROUP id="{AB8B3305-FC10-DD95-A587-AF3854CFDAEB}" name="Source">
+      <FILE id="qQ62ju" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="VjSrB5" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="VC3DeZ" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Hello_World"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Hello_World"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../API'S/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../API'S/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../API'S/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../API'S/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../API'S/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
